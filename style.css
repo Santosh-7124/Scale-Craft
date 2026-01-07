@@ -1769,6 +1769,337 @@ html {
   width: 90%;
 }
 
+.fandb-focus {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  gap: 40px;
+}
+
+.fandb-focus p {
+  width: 100%;
+  color: rgba(33, 33, 33, 0.6);
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.fandb-focus-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fandb-focus-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.fandb-user {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 100px;
+  padding: 40px 0px;
+}
+
+.fandb-user-set {
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.fandb-user .fandb-user-set:nth-child(2) {
+  align-items: center;
+}
+
+.fandb-user .fandb-user-set:last-child {
+  align-items: flex-end;
+}
+
+.fandb-user-set-line {
+  width: 1px;
+  align-self: stretch;
+  border: 1px dashed #666666;
+  position: relative;
+}
+
+.fandb-user-set-line::after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 101%;
+  background: linear-gradient(0deg, #f8f8f8, transparent, #f8f8f8);
+
+  z-index: 1;
+}
+
+.fandb-user-set-container {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.fandb-user-set-container header {
+  display: flex;
+  width: 100;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.fandb-user-set-icon {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #ffe9ed;
+}
+
+.fandb-user-set-icon svg {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+
+.fandb-user-set-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.fandb-user-set-heading h3 {
+  color: #121212;
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+
+.fandb-user-set-heading p {
+  color: rgba(33, 33, 33, 0.6);
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fandb-user-set-heading p span {
+  color: #c41e3a;
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fandb-user-set-text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.fandb-user-set-text hr {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.12);
+}
+
+.fandb-user-set-text-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.fandb-user-set-text-container p {
+  color: rgba(33, 33, 33, 0.5);
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.fandb-user-set-text-container ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  padding-left: 20px;
+}
+
+.fandb-user-set-text-container ul li {
+  color: rgba(33, 33, 33, 0.9);
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.fandb-user-set-text-container ul li::marker {
+  color: #c41e3a;
+}
+
+.fandb-services {
+  display: flex;
+  height: 100%;
+  min-height: 618px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+
+.fandb-services-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.fandb-services-set {
+  width: 100%;
+  display: flex;
+  padding: 36px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border-bottom: 1px solid #bebebe;
+  gap: 0px;
+}
+
+.fandb-services-set.active-fandb-services-set {
+  border-radius: 12px;
+  background: #fbfafa;
+  box-shadow: 0 8px 100px 0 rgba(0, 0, 0, 0.07),
+    0 10px 60px 0 rgba(0, 0, 0, 0.06), 0 12px 32px 0 rgba(0, 0, 0, 0.05),
+    0 8px 16px 0 rgba(0, 0, 0, 0.08), 0 2px 8px 0 rgba(0, 0, 0, 0.03),
+    0 0 4px 0 rgba(0, 0, 0, 0.02);
+  border: none;
+  gap: 12px;
+  scale: 1.1;
+}
+
+.fandb-services-set header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.fandb-services-set-icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 9px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  aspect-ratio: 1/1;
+  border-radius: 40px;
+  background: #fff;
+}
+
+.fandb-services-set-icon svg {
+  width: 20px;
+  height: 19px;
+  flex-shrink: 0;
+}
+
+.fandb-services-set h3 {
+  color: rgba(33, 33, 33, 0.9);
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fandb-services-set p {
+  color: rgba(33, 33, 33, 0.7);
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.fandb-services-set.active-fandb-services-set p {
+  max-height: 300px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.fandb-services-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fandb-services-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.fandb-industry {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fandb-industry img {
+  width: 100%;
+  object-fit: cover;
+}
+
 /* Footer */
 
 footer {

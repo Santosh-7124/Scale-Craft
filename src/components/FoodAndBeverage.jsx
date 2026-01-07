@@ -5,6 +5,11 @@ import Models from "./FoodAndBeverage/Models";
 import Funnel from "./FoodAndBeverage/Funnel";
 import Reason from "./FoodAndBeverage/Reason";
 import Journey from "./FoodAndBeverage/Journey";
+import Focus from "./FoodAndBeverage/Focus";
+import User from "./FoodAndBeverage/User";
+import Services from "./FoodAndBeverage/Services";
+import Industry from "./FoodAndBeverage/Industry";
+import Together from "./Home/Together";
 
 function FoodAndBeverage() {
   return (
@@ -15,6 +20,11 @@ function FoodAndBeverage() {
       <Funnel />
       <Reason />
       <Journey />
+      <Focus />
+      <User />
+      <Services />
+      <Industry />
+      <Together />
     </>
   );
 }

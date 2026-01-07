@@ -27,9 +27,9 @@ function Connect() {
               <path
                 d="M8 3C8.5 3 10.5 7.5 10.5 8C10.5 9 9 10 8.5 11C8 12 9 13 10 14C10.39 14.39 12 16 13 15.5C14 15 15 13.5 16 13.5C16.5 13.5 21 15.5 21 16C21 18 19.5 19.5 18 20C16.5 20.5 15.5 20.5 13.5 20C11.5 19.5 10 19 7.5 16.5C5 14 4.5 12.5 4 10.5C3.5 8.5 3.5 7.5 4 6C4.5 4.5 6 3 8 3Z"
                 stroke="#C41E3A"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>{" "}
             +91 74002 19151
@@ -52,11 +52,13 @@ function Connect() {
         </div>
       </div>
       <form>
-        <input placeholder="Name"/>
-        <input placeholder="Email address"/>
-        <input placeholder="Contact Number"/>
-        <textarea placeholder="Message"/>
-        <button type="submit" className="primary-button">Request Audit</button>
+        <input placeholder="Name" />
+        <input placeholder="Email address" />
+        <input placeholder="Contact Number" />
+        <textarea placeholder="Message" />
+        <button type="submit" className="primary-button">
+          Request Audit
+        </button>
       </form>
     </section>
   );
