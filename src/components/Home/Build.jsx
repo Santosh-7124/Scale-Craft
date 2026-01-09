@@ -7,7 +7,7 @@ function Build() {
     <section className="home-build">
       <div className="home-build-text">
         <h2>
-          Build & Scale <br className="desktop" />
+          Build & Scale <br />
           <span>with us</span> <img src={Background} />
         </h2>
         <p>

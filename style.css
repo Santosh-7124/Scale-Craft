@@ -2623,6 +2623,307 @@ footer hr {
     line-height: normal;
   }
 
+  .home-help {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .home-help-tabs {
+    width: 100%;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .home-help-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .home-help-tabs::before {
+    display: none;
+  }
+
+  .home-help-tabs-indicator {
+    display: none;
+  }
+
+  .home-help-tabs button {
+    padding: 0;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .home-help-content {
+    flex-direction: column;
+  }
+
+  .home-help-text {
+    overflow: visible;
+  }
+
+  .home-help-text h3 {
+    color: rgba(17, 17, 17, 0.8);
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .home-help-text span {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #c41e3a;
+    color: #c41e3a;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .home-help-para {
+    height: auto;
+  }
+
+  .home-help-text p {
+    color: rgba(17, 17, 17, 0.7);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  .home-help-para svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .home-help-img {
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+  }
+
+  .home-build {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .home-build-text {
+    max-width: 100%;
+  }
+
+  .home-build-text h2 {
+    width: 100%;
+    color: #212121;
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    text-transform: uppercase;
+  }
+
+  .home-build-text h2 span {
+    color: rgba(33, 33, 33, 0.6);
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .home-build-text h2 img {
+    right: 0;
+    top: 6px;
+  }
+
+  .home-build-text p {
+    color: rgba(17, 17, 17, 0.6);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  .home-build-content {
+    width: 100%;
+    padding: 0px 40px;
+    gap: 20px;
+  }
+
+  .home-build-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-decisions-container {
+    padding: 48px 20px 0px 20px;
+  }
+
+  .home-decisions {
+    gap: 24px;
+    max-width: 100%;
+    min-height: 420px;
+  }
+
+  .home-decisions-set {
+    gap: 20px;
+  }
+
+  .home-decisions-set-left span {
+    color: #c41e3a;
+    font-family: "Covered By Your Grace";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 4px;
+  }
+
+  .active-home-decisions-set .home-decisions-set-line {
+    height: 60px;
+  }
+
+  .home-decisions-set-right {
+    padding-top: 20px;
+    gap: 20px;
+  }
+
+  .home-decisions-set-right h3 {
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+  }
+
+  .home-decisions-set-right p {
+    color: rgba(33, 33, 33, 0.6);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .home-together {
+    padding: 0px 20px 48px 20px;
+  }
+
+  .home-together-container {
+    height: auto;
+    min-height: 300px;
+    padding: 40px 20px;
+  }
+
+  .home-together-text {
+    padding: 0px 40px;
+  }
+
+  .home-together-text h2 {
+    color: #f8f8f8;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .home-together-text p {
+    color: #f8f8f8;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+  }
+
+  .home-testimony {
+    padding: 48px 40px;
+    gap: 40px;
+  }
+
+  .home-testimony h2 {
+    color: #212121;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .home-testimony h2 span {
+    color: #c41e3a;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .home-testimony p {
+    padding: 0;
+    color: #212121;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+
+  .home-connect {
+    padding: 48px 20px;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .home-connect-text {
+    gap: 24px;
+  }
+
+  .home-connect-text-para {
+    color: rgba(17, 17, 17, 0.6);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+
   /* Footer */
 
   footer {
