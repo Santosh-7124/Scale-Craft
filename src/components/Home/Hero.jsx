@@ -9,7 +9,6 @@ function Hero() {
         <img src={DesktopImage} alt="Desktop Image" />
       </div>
       <div className="home-hero-content">
-        <img src={Airplane} alt="Airplane Icon" />
         <h1>
           SCALING <span>F&B</span> Brands
         </h1>
@@ -22,6 +21,7 @@ function Hero() {
             Claim Your Audit Today
           </a>
         </div>
+        <img src={Airplane} alt="Airplane Icon" />
       </div>
     </section>
   );

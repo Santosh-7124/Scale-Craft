@@ -2,7 +2,7 @@ import React from "react";
 
 function Connect() {
   return (
-    <section className="home-connect">
+    <section className="home-connect" id="contact">
       <div className="home-connect-text">
         <header className="template-heading">
           <div className="template-heading-header">

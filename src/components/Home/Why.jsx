@@ -17,7 +17,7 @@ function Why() {
         <h2>Meet The Founder</h2>
       </header>
       <div className="home-why-center">
-        <hr />
+        <hr className="desktop" />
         <article className="home-why-center-set">
           <div className="home-why-center-set-icon">
             <svg
@@ -38,6 +38,7 @@ function Why() {
             <p>We rely on insights</p>
           </div>
         </article>
+        <span className="mobile"></span>
         <article className="home-why-center-set">
           <div className="home-why-center-set-icon">
             <svg
@@ -64,6 +65,7 @@ function Why() {
             <p>We build, launch, test, and optimize.</p>
           </div>
         </article>
+        <span className="mobile"></span>
         <article className="home-why-center-set">
           <div className="home-why-center-set-icon">
             <svg
@@ -88,15 +90,21 @@ function Why() {
       <div className="home-why-end">
         <article>
           <h3>5x</h3>
-          <p>Marketing Return</p>
+          <p>
+            Marketing <br className="mobile" /> Return
+          </p>
         </article>
         <article>
           <h3>2.5x</h3>
-          <p>Revenue Growth</p>
+          <p>
+            Revenue <br className="mobile" /> Growth
+          </p>
         </article>
         <article>
           <h3>30%</h3>
-          <p>ROI Target</p>
+          <p>
+            ROI <br className="mobile" /> Target
+          </p>
         </article>
       </div>
     </section>
