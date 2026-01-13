@@ -41,7 +41,7 @@ function About() {
           </div>
         </div>
         <div className="home-about-top-right">
-          <video src={Sample} autoPlay loop muted />
+          <video src={Sample} autoPlay loop muted controls/>
         </div>
       </div>
       <div className="home-about-bottom">

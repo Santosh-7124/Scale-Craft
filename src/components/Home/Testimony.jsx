@@ -6,22 +6,28 @@ import Testimony3 from "../../assets/Home/Testimony/Testimony 3.jpg";
 function Testimony() {
   const testimonyData = [
     {
-      name: "Rahul Mehta",
-      designation: "Business CEO & Co-Founder",
-      text: "Lorem ipsum dolor sit amet consectetur. Gravida id commodo habitant donec lobortis suscipit.",
+      name: "Rohan Mehta",
+      designation: "Founder, QSR Brand",
+      text: "ScaleCraft helped us break a growth plateau by fixing pricing, channels, and execution. It felt like a real growth partner, not a consultant.",
       img: Testimony1,
     },
     {
-      name: "Ananya Sharma",
-      designation: "Founder & Managing Director",
-      text: "Their strategic insights helped us scale faster than expected. The execution was flawless and measurable.",
+      name: "Ayesha Khan",
+      designation: "Co-founder, Beverage Brand",
+      text: "They brought clarity to our numbers and helped us make better decisions across marketing and channels.",
       img: Testimony2,
     },
     {
-      name: "Vikram Rao",
-      designation: "Chief Operations Officer",
-      text: "From diagnosis to deployment, the team stayed hands-on and result-oriented throughout the journey.",
+      name: "Kunal Shah",
+      designation: "Owner, Multi-outlet Restaurant Brand",
+      text: "Honest advice, hands-on support, and clear priorities. ScaleCraft helped us scale without chaos.",
       img: Testimony3,
+    },
+    {
+      name: "Neha Desai",
+      designation: "Founder, Consumer Food Brand",
+      text: "Weekly reviews and practical insights made a real difference. We finally started growing with intention.",
+      img: Testimony1,
     },
   ];
 

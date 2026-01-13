@@ -9,6 +9,7 @@ import Build from "./Home/Build";
 import Decisions from "./Home/Decisions";
 import Together from "./Home/Together";
 import Testimony from "./Home/Testimony";
+import Journey from "./Home/Journey";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Hero />
       <Banner />
       <About />
+      <Journey />
       <Founder />
       <Why />
       <Help />

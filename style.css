@@ -497,6 +497,360 @@ html {
   letter-spacing: 0.171px;
 }
 
+.home-journey-container {
+  background: #c41e3a;
+}
+
+.home-journey-container .template-heading-header p {
+  color: #fff;
+}
+
+.home-journey-container .template-heading-header hr {
+  border: 1px solid #fff;
+}
+
+.home-journey-container .template-heading h2 {
+  color: #fff;
+}
+
+.home-journey {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 24px;
+}
+
+.home-journey-top-left {
+  grid-column: span 4;
+  width: 100%;
+  min-height: 440px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 12px;
+  background: #fdfdfd;
+}
+
+.home-journey-top-left-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px;
+}
+
+.home-journey-top-left-container-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(#fdfdfd, #fdfdfd) padding-box padding-box,
+    linear-gradient(#fdfdfd, #dee2e6) border-box border-box;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: initial;
+  padding: 0px 40px 20px 40px;
+}
+
+.home-journey-top-left-container-top-tabs {
+  display: flex;
+  width: 100%;
+  height: 84px;
+  padding: 12px 12px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  background: #fff;
+}
+
+.home-journey-top-left-container-top-tab {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s;
+}
+
+.home-journey-top-left-container-top-tab.active-home-journey-top-left h4 {
+  font-size: 20px;
+}
+
+.home-journey-top-left-container-top-tab h4 {
+  color: #c41e3a;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: all 0.3s;
+}
+
+.home-journey-top-left-container-top-tab p {
+  color: rgba(33, 33, 33, 0.7);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-journey-top-left-container-top-tabs span {
+  width: 1px;
+  height: 56.143px;
+  background: #dee2e6;
+}
+
+.home-journey-top-left-container-top h3 {
+  color: rgba(33, 33, 33, 0.9);
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.home-journey-top-left-container-bottom {
+  width: 100%;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-journey-top-left-container-bottom-tabs {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-journey-top-left-container-bottom-tab {
+  width: 100%;
+  display: flex;
+  height: 37px;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 0.794px solid #dee2e6;
+  background: #ffffff99;
+  transition: all 0.3s;
+}
+
+.home-journey-top-left-container-bottom-tab.active-home-journey-top-left {
+  background: #ffeaee;
+}
+
+.home-journey-top-left-container-bottom-tab svg {
+  width: 24px;
+  height: 24px;
+  aspect-ratio: 1/1;
+  flex-shrink: 0;
+  transition: all 0.3s;
+}
+
+.home-journey-top-left-container-bottom-tab svg path {
+  transition: all 0.3s;
+}
+
+.home-journey-top-left-container-bottom-tab.active-home-journey-top-left svg {
+  fill: #c41e3a;
+  stroke-width: 1px;
+  stroke: #dee2e6;
+}
+
+.home-journey-top-left-container-bottom-tab p {
+  flex-shrink: 0;
+  color: rgba(33, 33, 33, 0.7);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-journey-top-left-container-bottom-img {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 10px 0px 10px;
+  background: linear-gradient(#fdfdfd, #fdfdfd) padding-box padding-box,
+    linear-gradient(0deg, #fdfdfd, #dee2e6) border-box border-box;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: initial;
+}
+
+.home-journey-top-left-container-bottom-img img {
+  height: 42px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.home-journey-set {
+  width: 100%;
+  display: flex;
+  padding: 0 40px 60px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.home-journey-set h3 {
+  color: #212121;
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.home-journey-set p {
+  color: rgba(33, 33, 33, 0.8);
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.home-journey-top-right {
+  grid-column: span 3;
+  width: 100%;
+  min-height: 440px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 12px;
+  background: #fdfdfd;
+}
+
+.home-journey-top-right-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 0px 0px 40px;
+}
+
+.home-journey-top-right-container-div {
+  width: 100%;
+  display: flex;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px 32px;
+  background: linear-gradient(#ffffff, #fdfdfd) padding-box padding-box,
+    linear-gradient(-30deg, #fdfdfd, #fdfdfd, #dee2e6) border-box border-box;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: initial;
+}
+
+.home-journey-top-right-container-top-tabs {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.home-journey-top-right-container-top-tab {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.home-journey-top-right-container-top-tab img {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.home-journey-top-right-container-top-tab p {
+  color: rgba(33, 33, 33, 0.9);
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.home-journey-top-right-container-bottom-tabs {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-journey-top-right-container-bottom-tab {
+  width: 100%;
+  display: flex;
+  height: 37px;
+  padding: 4px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 0.794px solid #dee2e6;
+  background: linear-gradient(
+    91deg,
+    rgba(255, 255, 255, 0.6) -0.12%,
+    rgba(255, 255, 255, 0.5) 101.37%
+  );
+}
+
+.home-journey-top-right-container-bottom-tab span {
+  color: #c41e3a;
+  font-family: Barlow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.home-journey-top-right-container-bottom-tab p {
+  color: rgba(33, 33, 33, 0.7);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  white-space: nowrap;
+}
+
 .home-founder {
   width: 100%;
   display: flex;
@@ -2113,7 +2467,7 @@ html {
 .fandb-user-set-heading p span {
   color: #c41e3a;
   font-family: Barlow;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -2535,6 +2889,7 @@ footer hr {
 
   .home-hero-img {
     width: 100%;
+    max-height: 50%;
     height: auto;
   }
 
@@ -2570,6 +2925,7 @@ footer hr {
   }
 
   .home-hero-content img {
+    width: auto;
     position: static;
     height: 69px;
     object-fit: cover;
@@ -2681,6 +3037,7 @@ footer hr {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    padding: 0px 40px;
   }
 
   .home-about-bottom {

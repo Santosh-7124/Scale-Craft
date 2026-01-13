@@ -32,7 +32,7 @@ function User() {
               <div className="fandb-user-set-heading">
                 <h3>New User</h3>
                 <p>
-                  Drive <span>Growth</span>
+                   <span>Growth</span>
                 </p>
               </div>
             </header>
@@ -79,7 +79,7 @@ function User() {
               <div className="fandb-user-set-heading">
                 <h3>Repeat User</h3>
                 <p>
-                  Drive <span>Profitability</span>
+                   <span>Profitability</span>
                 </p>
               </div>
             </header>
@@ -126,7 +126,7 @@ function User() {
               <div className="fandb-user-set-heading">
                 <h3>Dormant User</h3>
                 <p>
-                  Drive <span>Efficiency</span>
+                   <span>Efficiency</span>
                 </p>
               </div>
             </header>
