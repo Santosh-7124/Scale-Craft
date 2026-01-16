@@ -10,6 +10,7 @@ import Decisions from "./Home/Decisions";
 import Together from "./Home/Together";
 import Testimony from "./Home/Testimony";
 import Journey from "./Home/Journey";
+import NanuPaya from "./Home/NanuPaya";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <Founder />
       <Why />
       <Help />
+      <NanuPaya />
       <Build />
       <Decisions />
       <Together />
