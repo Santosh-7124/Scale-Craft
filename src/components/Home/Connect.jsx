@@ -51,11 +51,15 @@ function Connect() {
           </a>
         </div>
       </div>
-      <form>
-        <input placeholder="Name" />
-        <input placeholder="Email address" />
-        <input placeholder="Contact Number" />
-        <textarea placeholder="Message" />
+      <form action="https://formspree.io/f/xojjjkld" method="POST">
+        <input type="text" name="Name" placeholder="Name" />
+        <input type="email" name="Email address" placeholder="Email address" />
+        <input
+          type="tel"
+          name="Contact Number"
+          placeholder="Contact Number"
+        />
+        <textarea name="Message" placeholder="Message" />
         <button type="submit" className="primary-button">
           Request Audit
         </button>

@@ -3706,37 +3706,37 @@ footer hr {
     height: auto;
   }
 
-  .nanu-paya{
+  .nanu-paya {
     padding: 48px 20px;
     flex-direction: column;
     gap: 40px;
   }
 
-  .nanu-paya span{
+  .nanu-paya span {
     bottom: -2%;
     font-size: 15vw;
   }
 
-  .nanu-paya-img{
+  .nanu-paya-img {
     width: 100%;
   }
 
-   .nanu-paya-text{
+  .nanu-paya-text {
     width: 100%;
     gap: 24px;
-   }
+  }
 
-  .nanu-paya-text svg{
+  .nanu-paya-text svg {
     width: 24px;
     height: auto;
     object-fit: cover;
   }
 
-  .nanu-paya-text-container p{
+  .nanu-paya-text-container p {
     font-size: 16px;
   }
 
-  .nanu-paya-text-container h2{
+  .nanu-paya-text-container h2 {
     font-size: 20px;
   }
 
@@ -3921,6 +3921,10 @@ footer hr {
     font-weight: 700;
     line-height: 140%;
     text-transform: capitalize;
+  }
+
+  .home-testimony-imgs {
+    flex-wrap: wrap;
   }
 
   .home-connect {
