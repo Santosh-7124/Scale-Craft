@@ -3736,6 +3736,10 @@ footer hr {
     gap: 40px;
   }
 
+  .nanu-paya-img img {
+    max-height: 300px;
+  }
+
   .nanu-paya span {
     bottom: -2%;
     font-size: 15vw;
