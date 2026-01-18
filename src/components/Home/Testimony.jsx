@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Testimony1 from "../../assets/Home/Testimony/Testimony 1.jpg";
-import Testimony2 from "../../assets/Home/Testimony/Testimony 2.jpg";
-import Testimony3 from "../../assets/Home/Testimony/Testimony 3.jpg";
+import Testimony1 from "../../assets/Home/Testimony/Testimony 1.png";
+import Testimony2 from "../../assets/Home/Testimony/Testimony 2.png";
+import Testimony3 from "../../assets/Home/Testimony/Testimony 3.png";
+import Testimony4 from "../../assets/Home/Testimony/Testimony 4.jpg";
 
 function Testimony() {
   const testimonyData = [
@@ -15,19 +16,19 @@ function Testimony() {
       name: "Ayesha Khan",
       designation: "Co-founder, Beverage Brand",
       text: "They brought clarity to our numbers and helped us make better decisions across marketing and channels.",
-      img: Testimony2,
+      img: Testimony3,
     },
     {
       name: "Kunal Shah",
       designation: "Owner, Multi-outlet Restaurant Brand",
       text: "Honest advice, hands-on support, and clear priorities. ScaleCraft helped us scale without chaos.",
-      img: Testimony3,
+      img: Testimony2,
     },
     {
       name: "Neha Desai",
       designation: "Founder, Consumer Food Brand",
       text: "Weekly reviews and practical insights made a real difference. We finally started growing with intention.",
-      img: Testimony1,
+      img: Testimony4,
     },
   ];
 

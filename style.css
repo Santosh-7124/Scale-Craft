@@ -3073,7 +3073,7 @@ footer {
   fill: #c41e3a;
 }
 
-.footer-socials a:nth-child(2):hover svg path {
+.footer-socials a:nth-child(3):hover svg path {
   fill: none;
   stroke: #c41e3a;
 }
