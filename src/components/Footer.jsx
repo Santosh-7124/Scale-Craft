@@ -12,7 +12,7 @@ function Footer() {
           <Link to="/F&B">F&B</Link>
         </nav>
         <div className="footer-socials">
-          <a href="#">
+          <a href="https://wa.me/917400219151" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -26,7 +26,10 @@ function Footer() {
               />
             </svg>
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/scale_craft_solutions"
+            target="_balnk"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -40,7 +43,10 @@ function Footer() {
               />
             </svg>
           </a>
-          <a href="#">
+          <a
+            href="https://www.facebook.com/profile.php?id=61584059482457"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -57,7 +63,7 @@ function Footer() {
               />
             </svg>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/mariam-bhol-bracketwal">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
