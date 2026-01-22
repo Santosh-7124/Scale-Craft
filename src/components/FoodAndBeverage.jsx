@@ -10,6 +10,7 @@ import User from "./FoodAndBeverage/User";
 import Services from "./FoodAndBeverage/Services";
 import Industry from "./FoodAndBeverage/Industry";
 import Together from "./Home/Together";
+import Clients from "./Home/Clients";
 
 function FoodAndBeverage() {
   return (
@@ -24,6 +25,7 @@ function FoodAndBeverage() {
       <User />
       <Services />
       <Industry />
+      <Clients />
       <Together />
     </>
   );

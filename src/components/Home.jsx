@@ -11,6 +11,7 @@ import Together from "./Home/Together";
 import Testimony from "./Home/Testimony";
 import Journey from "./Home/Journey";
 import NanuPaya from "./Home/NanuPaya";
+import Clients from "./Home/Clients";
 
 function Home() {
   return (
@@ -21,12 +22,13 @@ function Home() {
       <Journey />
       <Founder />
       <Why />
+      <Clients />
       <Help />
       {/* <NanuPaya /> */}
       <Build />
       <Decisions />
       <Together />
-      <Testimony />
+      {/* <Testimony /> */}
     </>
   );
 }

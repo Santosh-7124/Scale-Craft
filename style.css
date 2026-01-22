@@ -1254,6 +1254,32 @@ html {
   letter-spacing: 0.171px;
 }
 
+.template.clients {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.template.clients .template-heading {
+  justify-content: center;
+}
+
+.clients-container {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.clients-container img {
+  width: 170px;
+  height: 174px;
+  aspect-ratio: 85/87;
+  border-radius: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+
 .home-help {
   display: flex;
   padding: 40px 0;
@@ -3960,8 +3986,8 @@ footer hr {
   }
 
   .home-testimony p.testimony-text--small {
-  font-size: 12px;
-}
+    font-size: 12px;
+  }
 
   .home-testimony-imgs {
     flex-wrap: wrap;
