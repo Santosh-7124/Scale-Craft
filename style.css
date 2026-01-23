@@ -2313,6 +2313,11 @@ html {
   position: relative;
 }
 
+#Approach,
+#Contact {
+  scroll-margin-top: 80px;
+}
+
 .fandb-funnel-img {
   width: 100%;
   object-fit: cover;
@@ -3417,7 +3422,7 @@ footer hr {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    padding: 0px 40px;
+    padding: 0px 20px;
   }
 
   .home-about-bottom {
@@ -3630,16 +3635,16 @@ footer hr {
 
   .home-why-end {
     display: flex;
-    padding: 12px 8px;
+    padding: 12px 20px;
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
     border-radius: 8px;
-    gap: 0px;
+    gap: 10px;
   }
 
   .home-why-end article {
-    width: auto;
+    width: 100%;
   }
 
   .home-why-end article h3 {
@@ -3654,6 +3659,7 @@ footer hr {
   }
 
   .home-why-end article p {
+    width: 100%;
     color: #d7d7d7;
     text-align: center;
     font-family: Barlow;
@@ -3661,6 +3667,26 @@ footer hr {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+
+  .template.clients {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .clients-container {
+    width: 100%;
+    gap: 16px;
+  }
+
+  .clients-container img {
+    width: calc((100% / 4) - 12px);
+    flex: 1 1 0;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
   }
 
   .home-help {
@@ -4139,6 +4165,11 @@ footer hr {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+  }
+
+  #Approach,
+  #Contact {
+    scroll-margin-top: 56px;
   }
 
   .fandb-funnel-content-left {

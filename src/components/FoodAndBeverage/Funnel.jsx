@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import DesktopImage from "../../assets/FoodAndBeverage/Funnel/Desktop Image.svg";
 import MobileImage from "../../assets/FoodAndBeverage/Funnel/Mobile Image.svg";
 import contentLeft from "../../assets/FoodAndBeverage/Funnel/Content Left.svg";
@@ -75,8 +76,19 @@ function Funnel() {
     return () => clearTimeout(timeout);
   }, []);
 
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.scrollTo) {
+      const el = document.getElementById(location.state.scrollTo);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
-    <section className="template">
+    <section className="template" id="Approach">
       <header className="template-heading">
         <div className="template-heading-header">
           <hr />

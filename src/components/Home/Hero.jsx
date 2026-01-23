@@ -17,7 +17,7 @@ function Hero() {
             Data-driven, hands-on growth partnership for restaurants, cafes, and
             beverage brands.
           </p>
-          <a href="#" className="primary-button">
+          <a href="#Contact" className="primary-button">
             Claim Your Audit Today
           </a>
         </div>

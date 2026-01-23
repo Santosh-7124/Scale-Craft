@@ -12,7 +12,7 @@ function Together() {
             Connect with us for a personalized growth assessment
           </p>
         </div>
-        <a href="#">Book an Audit Today</a>
+        <a href="#Contact">Book an Audit Today</a>
       </div>
     </section>
   );

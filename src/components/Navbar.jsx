@@ -30,7 +30,7 @@ function Navbar() {
           <Link to="/F&B" className="secondary-button">
             Food & Beverage
           </Link>
-          <a href="#contact" className="primary-button">
+          <a href="#Contact" className="primary-button">
             Request Audit
           </a>
         </div>
@@ -55,8 +55,8 @@ function Navbar() {
             isMobileNavOpen
               ? "activeMobileNavbar"
               : hasToggled
-              ? "nonactiveMobileNavbar"
-              : ""
+                ? "nonactiveMobileNavbar"
+                : ""
           }`}
         >
           <div className="navbar-links desktop">
@@ -69,7 +69,7 @@ function Navbar() {
           </div>
           <div className="mobileNavbar-bottom">
             <a
-              href="#contact"
+              href="#Contact"
               className="primary-button"
               onClick={handleLinkClick}
             >

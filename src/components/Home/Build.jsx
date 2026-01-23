@@ -1,8 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Background from "../../assets/Home/Build/Background.png";
 import ContentImage from "../../assets/Home/Build/Content Image.png";
 
 function Build() {
+  const navigate = useNavigate();
+
   return (
     <section className="home-build">
       <div className="home-build-text">
@@ -69,9 +72,12 @@ function Build() {
             Channel Strategy
           </li>
         </ul>
-        <a href="#" className="primary-button">
+        <button
+          className="primary-button"
+          onClick={() => navigate("/F&B", { state: { scrollTo: "Approach" } })}
+        >
           Explore Our Approach
-        </a>
+        </button>
       </div>
     </section>
   );

@@ -91,19 +91,19 @@ function Why() {
         <article>
           <h3>5x</h3>
           <p>
-            Marketing <br className="mobile" /> Return
+            Marketing  Return
           </p>
         </article>
         <article>
           <h3>2.5x</h3>
           <p>
-            Revenue <br className="mobile" /> Growth
+            Revenue  Growth
           </p>
         </article>
         <article>
           <h3>30%</h3>
           <p>
-            ROI <br className="mobile" /> Target
+            ROI  Target
           </p>
         </article>
       </div>

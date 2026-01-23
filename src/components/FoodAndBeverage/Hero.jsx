@@ -15,7 +15,7 @@ function Hero() {
           <p>
             Practical guidance and real execution support to scale sustainably.
           </p>
-          <a href="#" className="primary-button">
+          <a href="#Approach" className="primary-button">
             Explore Our Approach
           </a>
         </div>

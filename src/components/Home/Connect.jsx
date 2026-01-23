@@ -2,7 +2,7 @@ import React from "react";
 
 function Connect() {
   return (
-    <section className="home-connect" id="contact">
+    <section className="home-connect" id="Contact">
       <div className="home-connect-text">
         <header className="template-heading">
           <div className="template-heading-header">
@@ -54,11 +54,7 @@ function Connect() {
       <form action="https://formspree.io/f/xojjjkld" method="POST">
         <input type="text" name="Name" placeholder="Name" />
         <input type="email" name="Email address" placeholder="Email address" />
-        <input
-          type="tel"
-          name="Contact Number"
-          placeholder="Contact Number"
-        />
+        <input type="tel" name="Contact Number" placeholder="Contact Number" />
         <textarea name="Message" placeholder="Message" />
         <button type="submit" className="primary-button">
           Request Audit
